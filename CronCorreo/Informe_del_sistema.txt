@@ -1,24 +1,23 @@
-Bienvenido al Informe del sistema, hoy es: Thu Nov 16 19:15:01  2023
+Bienvenido al Informe del sistema, hoy es: Fri Nov 24 23:39:58  2023
 
 Uso de CPU con el comando 'top -b -n 1 | head -n 36':
 ======================================
 
-top - 19:15:01 up  2:38,  1 user,  load average: 0,67, 1,11, 1,30
-Tareas: 242 total,   2 running, 240 sleeping,   0 stopped,   0 zombie
-%Cpu(s): 25,0 us,  0,0 sy,  0,0 ni, 75,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st 
-MiB Mem :  11844,7 total,   3570,2 free,   4363,8 used,   4694,4 buff/cache     
-MiB Intercambio:    976,0 total,    976,0 free,      0,0 used.   7480,9 avail Me
+top - 23:39:58 up  5:09,  1 user,  load average: 2,52, 3,12, 2,68
+Tareas: 266 total,   1 running, 265 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 33,3 us,  0,0 sy,  0,0 ni, 66,7 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st 
+MiB Mem :  11844,7 total,   2788,3 free,   6382,8 used,   3753,4 buff/cache     
+MiB Intercambio:    976,0 total,    976,0 free,      0,0 used.   5461,9 avail Me
 
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-   2548 root      20   0  219896  60444  12804 R  31,2   0,5   0:53.79 cups-br+
-   9881 martin    20   0 1156,1g 483920 166416 S  18,8   4,0   2:18.50 msedge
-    722 root      20   0   35784  17776   7764 S  12,5   0,1   0:18.29 cupsd
-  10314 martin    20   0 1156,1g 310412 131500 S  12,5   2,6   5:43.11 msedge
-    614 avahi     20   0   18936  14944   3852 S   6,2   0,1  23:25.84 avahi-d+
-   1868 martin    20   0  248424  14632  10172 S   6,2   0,1   0:19.85 gsd-pri+
-  14525 martin    20   0  559544  55020  39764 S   6,2   0,5   0:02.64 gnome-t+
-      1 root      20   0  168460  13088   9180 S   0,0   0,1   0:01.47 systemd
-      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+   5847 martin    20   0 1132,3g 406712 176672 S  62,5   3,4  27:07.47 Discord
+   1493 martin     9 -11  103096  19536   9064 S   6,2   0,2   0:50.60 pipewire
+   1496 martin     9 -11  105980  81448   8860 S   6,2   0,7   1:01.50 pipewir+
+   2632 martin    20   0  588272 180328 102940 S   6,2   1,5   5:21.14 Xwayland
+   3132 martin    20   0 1156,1g 263748 137992 S   6,2   2,2   1:09.39 msedge
+   7829 martin    20   0   11656   5124   3216 R   6,2   0,0   0:00.01 top
+      1 root      20   0  168344  12896   9240 S   0,0   0,1   0:01.46 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
       3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
       4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par+
       5 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 slub_fl+
@@ -28,24 +27,25 @@ MiB Intercambio:    976,0 total,    976,0 free,      0,0 used.   7480,9 avail Me
      11 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tas+
      12 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tas+
      13 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tas+
-     14 root      20   0       0      0      0 S   0,0   0,0   0:01.38 ksoftir+
-     15 root      20   0       0      0      0 I   0,0   0,0   0:22.96 rcu_pre+
+     14 root      20   0       0      0      0 S   0,0   0,0   0:00.23 ksoftir+
+     15 root      20   0       0      0      0 I   0,0   0,0   0:04.75 rcu_pre+
      16 root      rt   0       0      0      0 S   0,0   0,0   0:00.04 migrati+
      18 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/0
      19 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/1
-     20 root      rt   0       0      0      0 S   0,0   0,0   0:00.14 migrati+
-     21 root      20   0       0      0      0 S   0,0   0,0   0:02.22 ksoftir+
+     20 root      rt   0       0      0      0 S   0,0   0,0   0:00.13 migrati+
+     21 root      20   0       0      0      0 S   0,0   0,0   0:00.25 ksoftir+
      23 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker+
      24 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/2
-     25 root      rt   0       0      0      0 S   0,0   0,0   0:00.14 migrati+
-     26 root      20   0       0      0      0 S   0,0   0,0   0:02.41 ksoftir+
+     25 root      rt   0       0      0      0 S   0,0   0,0   0:00.13 migrati+
+     26 root      20   0       0      0      0 S   0,0   0,0   0:00.17 ksoftir+
+     28 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker+
 
 
 Uso de RAM con el comando 'free -h':
 ====================================
 
                total       usado       libre  compartido   búf/caché   disponible
-Mem:            11Gi       4,2Gi       3,5Gi       463Mi       4,6Gi       7,3Gi
+Mem:            11Gi       6,2Gi       2,7Gi       776Mi       3,7Gi       5,3Gi
 Inter:         975Mi          0B       975Mi
 
 
@@ -55,51 +55,51 @@ Espacio en disco con el comando 'df -h':
 S.ficheros     Tamaño Usados  Disp Uso% Montado en
 udev             5,8G      0  5,8G   0% /dev
 tmpfs            1,2G   1,7M  1,2G   1% /run
-/dev/sdb2        456G    42G  392G  10% /
-tmpfs            5,8G   110M  5,7G   2% /dev/shm
+/dev/sdb2        456G    64G  369G  15% /
+tmpfs            5,8G   279M  5,6G   5% /dev/shm
 tmpfs            5,0M    12K  5,0M   1% /run/lock
 /dev/sdb1        511M   5,9M  506M   2% /boot/efi
-tmpfs            1,2G   116K  1,2G   1% /run/user/1000
+tmpfs            1,2G    96K  1,2G   1% /run/user/1000
 
 
 Usuarios conectados actualmente usando el comando 'w':
 ======================================================
 
- 19:15:01 up  2:38,  1 user,  load average: 0,67, 1,11, 1,30
+ 23:39:58 up  5:09,  1 user,  load average: 2,52, 3,12, 2,68
 USER     TTY      DESDE            LOGIN@   IDLE   JCPU   PCPU WHAT
-martin   tty2     tty2             16:36    2:38m  0.05s  0.04s /usr/libexec/gnome-session-binary
+martin   tty2     tty2             18:30    5:09m  0.03s  0.03s /usr/libexec/gnome-session-binary
 
 
 Últimos registros del sistema, usando 'journalctl -n 30':
 ===============================================================
 
-nov 16 18:59:47 Debiantin microsoft-edge[2607]: qt.scenegraph.general: Animation Driver: using vsync: 16.67 ms
-nov 16 18:59:47 Debiantin microsoft-edge[2607]: qt.scenegraph.general: opengl texture atlas dimensions: 1024x512
-nov 16 18:59:50 Debiantin microsoft-edge[2607]: qt.scenegraph.general: Using sg animation driver
-nov 16 18:59:50 Debiantin microsoft-edge[2607]: qt.scenegraph.general: Animation Driver: using vsync: 16.67 ms
-nov 16 18:59:50 Debiantin microsoft-edge[2607]: qt.scenegraph.general: opengl texture atlas dimensions: 2048x1024
-nov 16 19:00:14 Debiantin microsoft-edge[2607]: [1116/190014.431083:ERROR:nss_util.cc(357)] After loading Root Certs, loaded==false: NSS error code: -8018
-nov 16 19:02:44 Debiantin code.desktop[10697]: [main 2023-11-16T22:02:44.766Z] update#setState checking for updates
-nov 16 19:02:45 Debiantin code.desktop[10697]: [main 2023-11-16T22:02:45.194Z] update#setState idle
-nov 16 19:04:46 Debiantin microsoft-edge[2607]: [14368:4:1116/190446.264486:ERROR:persistent_asset_storage_impl.cc(113)] Initialize succeeded with already open DB
-nov 16 19:06:12 Debiantin systemd[1430]: Started app-gnome-org.gnome.Settings-14387.scope - Application launched by gnome-shell.
-nov 16 19:06:13 Debiantin gnome-shell[1657]: AT-SPI: Error in GetItems, sender=:1.35, error=El objeto no existe en la ruta «/org/a11y/atspi/cache»
-nov 16 19:06:13 Debiantin gnome-shell[1657]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
-nov 16 19:06:19 Debiantin gnome-shell[1657]: Failed to read extents of focused component: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
-nov 16 19:06:26 Debiantin systemd[1430]: app-gnome-org.gnome.Settings-14387.scope: Consumed 2.819s CPU time.
-nov 16 19:06:29 Debiantin microsoft-edge[2607]: [14487:4:1116/190629.242570:ERROR:persistent_asset_storage_impl.cc(113)] Initialize succeeded with already open DB
-nov 16 19:06:52 Debiantin microsoft-edge[2607]: QFSFileEngine::open: No file name specified
-nov 16 19:06:53 Debiantin microsoft-edge[2607]: WorkerBase::loop() normal exit, fds[0].revents & POLLIN = true
-nov 16 19:06:53 Debiantin microsoft-edge[2607]: WorkerBase::loop() normal exit, fds[0].revents & POLLIN = true
-nov 16 19:06:53 Debiantin microsoft-edge[2607]: WorkerBase::loop() normal exit, fds[0].revents & POLLIN = true
-nov 16 19:06:53 Debiantin microsoft-edge[2607]: WorkerBase::loop() normal exit, fds[0].revents & POLLIN = true
-nov 16 19:06:53 Debiantin microsoft-edge[2607]: sh: 1: pactl: not found
-nov 16 19:06:53 Debiantin microsoft-edge[2607]: zoom exited normally, exit code is 0 .
-nov 16 19:06:53 Debiantin microsoft-edge[2607]: ZoomLauncher exit.
-nov 16 19:06:58 Debiantin microsoft-edge[2607]: [9566:1:1116/190658.424282:ERROR:video_hover_overlay_agent.cc(49)] Connection to VideoHoverOverlayDriver dropped
-nov 16 19:07:15 Debiantin dbus-daemon[1469]: [session uid=1000 pid=1469] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.105' (uid=1000 pid=4072 comm="/usr/bin/nautilus --gapplication-service")
-nov 16 19:07:15 Debiantin systemd[1430]: Starting gnome-terminal-server.service - GNOME Terminal Server...
-nov 16 19:07:15 Debiantin dbus-daemon[1469]: [session uid=1000 pid=1469] Successfully activated service 'org.gnome.Terminal'
-nov 16 19:07:15 Debiantin systemd[1430]: Started gnome-terminal-server.service - GNOME Terminal Server.
-nov 16 19:07:15 Debiantin systemd[1430]: Started vte-spawn-e69b2583-89e0-4ad9-8c4b-10765bfd9bfe.scope - VTE child process 14555 launched by gnome-terminal-server process 14525.
-nov 16 19:08:20 Debiantin microsoft-edge[2607]: [2687:2692:1116/190820.218524:ERROR:ssl_client_socket_impl.cc(1155)] handshake failed; returned -1, SSL error code 1, net_error -101
+nov 24 23:26:05 Debiantin gnome-shell[1689]: Object .Gjs_ui_workspaceThumbnail_ThumbnailsBox (0x55bdabb70830), has been already disposed — impossible to get any property from it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+nov 24 23:26:05 Debiantin gnome-shell[1689]: == Stack trace for context 0x55bdab37e640 ==
+nov 24 23:26:05 Debiantin gnome-shell[1689]: #0   7ffe1db45980 b   resource:///org/gnome/shell/ui/workspacesView.js:639 (2fee07f2be70 @ 33)
+nov 24 23:26:05 Debiantin gnome-shell[1689]: #1   7ffe1db45ad0 b   resource:///org/gnome/shell/ui/workspacesView.js:686 (2fee07f2bf10 @ 467)
+nov 24 23:26:05 Debiantin gnome-shell[1689]: #2   7ffe1db472c0 b   resource:///org/gnome/shell/ui/workspace.js:854 (379c11ec2380 @ 369)
+nov 24 23:26:05 Debiantin gnome-shell[1689]: #3   7ffe1db47380 b   resource:///org/gnome/shell/ui/workspace.js:805 (379c11ec22e0 @ 17)
+nov 24 23:26:05 Debiantin gnome-shell[1689]: #4   7ffe1db499d0 b   resource:///org/gnome/shell/ui/workspacesView.js:1016 (2fee07f2c970 @ 124)
+nov 24 23:26:05 Debiantin gnome-shell[1689]: #5   55bdad137cb8 i   resource:///org/gnome/shell/ui/overviewControls.js:715 (379c11e874c0 @ 39)
+nov 24 23:26:05 Debiantin gnome-shell[1689]: #6   55bdad137c30 i   resource:///org/gnome/shell/ui/layout.js:347 (25d8cf9cb1a0 @ 22)
+nov 24 23:26:05 Debiantin gnome-shell[1689]: #7   55bdad137ba0 i   resource:///org/gnome/shell/ui/overview.js:643 (379c11e85330 @ 175)
+nov 24 23:26:05 Debiantin gnome-shell[1689]: #8   55bdad137b20 i   resource:///org/gnome/shell/ui/overview.js:626 (379c11e852e0 @ 12)
+nov 24 23:26:05 Debiantin gnome-shell[1689]: #9   55bdad137aa0 i   resource:///org/gnome/shell/ui/overviewControls.js:757 (379c11e876a0 @ 55)
+nov 24 23:26:05 Debiantin gnome-shell[1689]: #10   7ffe1db4d000 b   resource:///org/gnome/shell/ui/environment.js:150 (25d8cf98c9c0 @ 39)
+nov 24 23:26:05 Debiantin gnome-shell[1689]: #11   55bdad137a18 i   resource:///org/gnome/shell/ui/environment.js:316 (25d8cf98cec0 @ 14)
+nov 24 23:26:05 Debiantin gnome-shell[1689]: == Stack trace for context 0x55bdab37e640 ==
+nov 24 23:26:05 Debiantin gnome-shell[1689]: #0   7ffe1db45ad0 b   resource:///org/gnome/shell/ui/workspacesView.js:688 (2fee07f2bf10 @ 484)
+nov 24 23:26:05 Debiantin gnome-shell[1689]: #1   7ffe1db472c0 b   resource:///org/gnome/shell/ui/workspace.js:854 (379c11ec2380 @ 369)
+nov 24 23:26:05 Debiantin gnome-shell[1689]: #2   7ffe1db47380 b   resource:///org/gnome/shell/ui/workspace.js:805 (379c11ec22e0 @ 17)
+nov 24 23:26:05 Debiantin gnome-shell[1689]: #3   7ffe1db499d0 b   resource:///org/gnome/shell/ui/workspacesView.js:1016 (2fee07f2c970 @ 124)
+nov 24 23:26:05 Debiantin gnome-shell[1689]: #4   55bdad137cb8 i   resource:///org/gnome/shell/ui/overviewControls.js:715 (379c11e874c0 @ 39)
+nov 24 23:26:05 Debiantin gnome-shell[1689]: #5   55bdad137c30 i   resource:///org/gnome/shell/ui/layout.js:347 (25d8cf9cb1a0 @ 22)
+nov 24 23:26:05 Debiantin gnome-shell[1689]: #6   55bdad137ba0 i   resource:///org/gnome/shell/ui/overview.js:643 (379c11e85330 @ 175)
+nov 24 23:26:05 Debiantin gnome-shell[1689]: #7   55bdad137b20 i   resource:///org/gnome/shell/ui/overview.js:626 (379c11e852e0 @ 12)
+nov 24 23:26:05 Debiantin gnome-shell[1689]: #8   55bdad137aa0 i   resource:///org/gnome/shell/ui/overviewControls.js:757 (379c11e876a0 @ 55)
+nov 24 23:26:05 Debiantin gnome-shell[1689]: #9   7ffe1db4d000 b   resource:///org/gnome/shell/ui/environment.js:150 (25d8cf98c9c0 @ 39)
+nov 24 23:26:05 Debiantin gnome-shell[1689]: #10   55bdad137a18 i   resource:///org/gnome/shell/ui/environment.js:316 (25d8cf98cec0 @ 14)
+nov 24 23:26:16 Debiantin microsoft-edge[2607]: [7326:4:1124/232616.216846:ERROR:persistent_asset_storage_impl.cc(113)] Initialize succeeded with already open DB
+nov 24 23:38:39 Debiantin gnome-shell[2632]: Key repeat discarded, Wayland compositor doesn't seem to be processing events fast enough!
+nov 24 23:38:39 Debiantin gnome-shell[1689]: Window manager warning: last_user_time (6850978) is greater than comparison timestamp (6850974).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+nov 24 23:38:39 Debiantin gnome-shell[1689]: Window manager warning: 0x2c00003 appears to be one of the offending windows with a timestamp of 6850978.  Working around...

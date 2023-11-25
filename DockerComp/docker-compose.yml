@@ -1,21 +1,36 @@
-version: '3'
-
+version: '3.8'
 services:
-  apache:
-    image: httpd:2.4
+  postgres:
+    image: postgres:12
+    volumes:
+      - ./datosPSQL:/var/lib/postgresql/data
+    restart: always
+    ports: 
+      - "5432:5432"
+
+    environment:
+      - DATABASE_HOST=127.0.0.1
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_DB=login
+
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "admin@admin.com"
+      PGADMIN_DEFAULT_PASSWORD: "admin"
     ports:
       - "80:80"
-    volumes:
-      - ./html:/usr/local/apache2/htdocs
+    depends_on:
+      - postgres
 
-  mariadb:
-    image: mariadb:latest
-    environment:
-      MYSQL_ROOT_PASSWORD: examplepassword
-      MYSQL_DATABASE: mydatabase
-      MYSQL_USER: myuser
-      MYSQL_PASSWORD: mypassword
+  apache:
+    image: httpd:2.4
+    container_name: my-apache-app
     ports:
-      - "3306:3306"
+      - '81:81'
     volumes:
-      - ./mariadb_data:/var/lib/mysql
+      - './html:/usr/local/apache2/htdocs'
+    restart: always
+    environment:
+      TZ: 'America/Santiago'  # Configura la zona horaria según tu ubicación

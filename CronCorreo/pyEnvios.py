@@ -49,7 +49,7 @@ def enviar_correo(destinatario, asunto, cuerpo, archivo_adjunto_path=None):
 destinatario = 'vergaravargas.siblings@gmail.com'
 asunto = 'Asunto del correo'
 cuerpo = 'Este es el cuerpo del correo.'
-archivo = '/home/martin/Programacion/AS/Informe_del_sistema.txt'
+archivo = 'Informe_del_sistema.txt'
 
 enviar_correo(destinatario, asunto, cuerpo, archivo)
 

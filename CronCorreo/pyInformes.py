@@ -44,5 +44,11 @@ if __name__ == "__main__":
     nombre_archivo = "Informe_del_sistema.txt"
     informe = generar_informe()
     guardar_informe(nombre_archivo, informe)
+    envio = 'pyEnvios.py'
+    comando = ['python3', envio]
+    try:
+        subprocess.run(comando, check=True)
+    except subprocess.CalledProcessError as e:
+        print(f"Error al ejecutar el script: {e}")
 
     print(f"Informe generado y guardado en {nombre_archivo}")
